@@ -19,9 +19,10 @@ function ChangeColor() {
       "," +
       Math.round(Math.random() * 255).toString() +
       ")";
-    // RGB = RGB.trim();
+    
     console.log(typeof RGB);
     bg.style.backgroundColor = RGB;
+
 
   }},1000)
   
